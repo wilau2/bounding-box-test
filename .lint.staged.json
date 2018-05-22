@@ -1,0 +1,6 @@
+{
+  "*.{js,mjs,json,css,md}": [
+    "prettier --arrow-parens always --trailing-comma all --single-quote --print-width 100 --write",
+    "git add"
+  ]
+}
